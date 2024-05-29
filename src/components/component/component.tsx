@@ -52,7 +52,7 @@ export function Component() {
         <div className="md:w-1/2 p-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <a
             className="bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center p-4"
-            href="https://fabzact.de/discord" target="_blank"
+            href="https://discord.fabzact.de" target="_blank"
           >
             <div className="bg-gray-200 dark:bg-gray-600 rounded-full p-2 mr-4">
               <svg xmlns="http://www.w3.org/2000/svg" height={25} width={25}
@@ -68,7 +68,7 @@ export function Component() {
           </a>
           <a
               className="bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center p-4"
-              href="https://fabzact.de/twitch" target="_blank"
+              href="https://twitch.tv/fabzact" target="_blank"
           >
             <div className="bg-gray-200 dark:bg-gray-600 rounded-full p-2 mr-4">
               <svg xmlns="http://www.w3.org/2000/svg" height={25} width={25}
