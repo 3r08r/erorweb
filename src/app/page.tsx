@@ -3,9 +3,10 @@ import {Component} from "@/components/component/component";
 
 export default function Page() {
   return (
-    <div>
-        <SpeedInsights />
-      <Component />
-    </div>
-  );
+    <>
+        <SpeedInsights/>
+        <Component/>
+    </>
+  )
+      ;
 }
