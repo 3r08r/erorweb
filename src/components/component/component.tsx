@@ -25,7 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export function Component() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh] bg-gray-100 dark:bg-gray-900 p-4 md:p-8">
