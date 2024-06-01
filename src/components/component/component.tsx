@@ -35,7 +35,7 @@ export function Component() {
             <div className="flex items-center mb-4">
               <Avatar className="w-20 h-20 mr-4">
                 <AvatarImage alt="User Avatar"
-                             src="https://cdn.discordapp.com/avatars/257177177378914304/02066510896c8a92c949ca5c20673b65?size=1024"/>
+                             src="https://cdn.discordapp.com/avatars/962060530506399784/8af2561dc3920eb3ecc72c194d905584?size=1024"/>
                 <AvatarFallback>Fab</AvatarFallback>
               </Avatar>
               <div>
@@ -135,7 +135,7 @@ export function Component() {
           </div>
 
         </div>
-        <div>
+        <div className="disable_on_mobile">
           <iframe
               src="https://github-readme-activity-graph.vercel.app/graph?username=3r08r&bg_color=111827&color=95a3a7&line=9e4c98&point=949494&area=true&hide_border=true"
               title="Activity Graph"

@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+@media screen and (max-width: 1300px) {
+  .disable_on_mobile {
+    display: none;
+  }
+}
