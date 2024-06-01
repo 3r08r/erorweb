@@ -36,7 +36,7 @@ export function Component() {
               <Avatar className="w-20 h-20 mr-4">
                 <AvatarImage alt="User Avatar"
                              src="https://cdn.discordapp.com/avatars/962060530506399784/8af2561dc3920eb3ecc72c194d905584?size=1024"/>
-                <AvatarFallback>Fab</AvatarFallback>
+                <AvatarFallback>Eror</AvatarFallback>
               </Avatar>
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-2">Err0r</h2>

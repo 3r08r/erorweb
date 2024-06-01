@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Erors Linktree",
   description: "Made By E_0r",
-  icons: "https://cdn.discordapp.com/avatars/257177177378914304/02066510896c8a92c949ca5c20673b65?size=1024"
+  icons: [{ rel: "icon", url: "https://cdn.discordapp.com/avatars/962060530506399784/8af2561dc3920eb3ecc72c194d905584?size=1024&.jpg" }],
 };
 
 export default function RootLayout({
@@ -18,9 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <Head>
-      <link rel="icon" href="/favicon.ico" sizes="any"/>
-    </Head>
     <body className={inter.className}>{children}</body>
     </html>
   );
